@@ -24,7 +24,9 @@
     "main": "./core/index",
     "scripts": {
         "start": "node index",
-        "test": "./node_modules/.bin/grunt validate --verbose"
+        "test": "./node_modules/.bin/grunt validate --verbose",
+        "generate": "buster generate --domain=http://localhost:2368",
+        "deploy": "buster deploy"
     },
     "engines": {
         "node": "~0.10.0"
